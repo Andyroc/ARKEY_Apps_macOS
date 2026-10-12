@@ -53,23 +53,6 @@
       "color": "#F0743A"
     },
     {
-      "id": "ma3node",
-      "name": "Ma3 Node Emulator",
-      "version": "1.0.3",
-      "file": "ma3node-1.0.3.arp",
-      "size": 20599455,
-      "container_sha256": "15016a79d448761af288b4cca45a71d7761c561ec320559142a6ae6a28b6f13d",
-      "kind": "exe",
-      "os": "mac",
-      "feature_bit": 1,
-      "min_tier": 1,
-      "needs_dongle": true,
-      "sealed": true,
-      "description": "Ma3 Node Emulator — эмулятор ноды grandMA3 (macOS)",
-      "icon": "icon-ma3node.png",
-      "color": "#E0524D"
-    },
-    {
       "id": "ma2scram",
       "name": "Ma2 to Artnet/sACN",
       "version": "1.0.8",
