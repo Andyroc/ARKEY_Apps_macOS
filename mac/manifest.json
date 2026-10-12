@@ -19,23 +19,6 @@
       "color": "#E8B33A"
     },
     {
-      "id": "arnet_bridge",
-      "name": "AR Key Bridge",
-      "version": "1.0.0",
-      "file": "arnet_bridge-1.0.0.arp",
-      "size": 12150862,
-      "container_sha256": "c9c2b392c29bee268a3b10a5deec12f253ec01ee19d8ffb24dc0f19a7b8dbea3",
-      "kind": "exe",
-      "os": "mac",
-      "feature_bit": 1,
-      "min_tier": 1,
-      "needs_dongle": true,
-      "sealed": true,
-      "description": "AR Key Bridge — мост MA-Net (macOS)",
-      "icon": "icon-arnet_bridge.png",
-      "color": "#2FBFB0"
-    },
-    {
       "id": "abletonlink",
       "name": "Ableton Link to Ma2/Ma3",
       "version": "1.0.2",
@@ -51,23 +34,6 @@
       "description": "Ableton Link to Ma2/Ma3 — единый оверлей + брокер (macOS arm64)",
       "icon": "icon-abletonlink.png",
       "color": "#F0743A"
-    },
-    {
-      "id": "ma2scram",
-      "name": "Ma2 to Artnet/sACN",
-      "version": "1.0.8",
-      "file": "ma2scram-1.0.8.arp",
-      "size": 28659476,
-      "container_sha256": "281100487a6a819bad41c7b953bfea38ab37fd5940a4717091712d7931065826",
-      "kind": "exe",
-      "os": "mac",
-      "feature_bit": 1,
-      "min_tier": 1,
-      "needs_dongle": true,
-      "sealed": true,
-      "description": "Ma2 to Artnet/sACN — MA-Net2 → Art-Net/sACN (macOS, требует донгл)",
-      "icon": "icon-ma2scram.png",
-      "color": "#5FB85C"
     },
     {
       "id": "ma2npu",
@@ -120,6 +86,40 @@
       "description": "Ma3 to Artnet/sACN — DMX из памяти grandMA3 → Art-Net/sACN. Первый запуск: установка + переподпись grandMA3 (нужен пароль админа и установленная grandMA3).",
       "icon": "icon-ma3conv.png",
       "color": "#38C1E8"
+    },
+    {
+      "id": "ma2scram",
+      "name": "Ma2 to Artnet/sACN",
+      "version": "1.0.9",
+      "file": "ma2scram-1.0.9.arp",
+      "size": 27010356,
+      "container_sha256": "c72086d2d597bf6e458f89f577b28887047fdc904b14299ecc7cfe7f339e860d",
+      "kind": "exe",
+      "os": "mac",
+      "feature_bit": 1,
+      "min_tier": 1,
+      "needs_dongle": true,
+      "sealed": true,
+      "description": "Ma2 to Artnet/sACN — MA-Net2 → Art-Net/sACN (macOS, требует донгл)",
+      "icon": "icon-ma2scram.png",
+      "color": "#5FB85C"
+    },
+    {
+      "id": "arnet_bridge",
+      "name": "AR Key Bridge",
+      "version": "1.0.1",
+      "file": "arnet_bridge-1.0.1.arp",
+      "size": 10415102,
+      "container_sha256": "e617c6954d48ab5e8cfdc86f97b554bcd867c545e75c6469295c4b7725f6f96f",
+      "kind": "exe",
+      "os": "mac",
+      "feature_bit": 1,
+      "min_tier": 1,
+      "needs_dongle": true,
+      "sealed": true,
+      "description": "AR Key Bridge — мост MA-Net (macOS)",
+      "icon": "icon-arnet_bridge.png",
+      "color": "#2FBFB0"
     }
   ]
 }
