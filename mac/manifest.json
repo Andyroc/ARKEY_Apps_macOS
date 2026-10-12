@@ -103,6 +103,23 @@
       "description": "MIDI to OSC for MA3 — работает без ключа (macOS arm64)",
       "icon": "icon-midiosc.png",
       "color": "#5A8DEE"
+    },
+    {
+      "id": "ma3conv",
+      "name": "Ma3 to Artnet/sACN",
+      "version": "1.0.0",
+      "file": "ma3conv-1.0.0.arp",
+      "size": 25350646,
+      "container_sha256": "563a87bd3a014227e0b8ed538111d0a732f68d7677f5a1a2315f8b4527b74f7c",
+      "kind": "exe",
+      "os": "mac",
+      "feature_bit": 1,
+      "min_tier": 1,
+      "needs_dongle": true,
+      "sealed": true,
+      "description": "Ma3 to Artnet/sACN — DMX из памяти grandMA3 → Art-Net/sACN. Первый запуск: установка + переподпись grandMA3 (нужен пароль админа и установленная grandMA3).",
+      "icon": "icon-ma3conv.png",
+      "color": "#38C1E8"
     }
   ]
 }
