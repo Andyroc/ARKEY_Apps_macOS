@@ -11,4 +11,3 @@
 Лаунчер тянет каталог по raw-URL:
 `https://raw.githubusercontent.com/Andyroc/ARKEY_Apps_macOS/main/mac/manifest.json`
 
-Большие standalone-приложения (например, MA2 NPU Emulator) публикуются как **GitHub Releases**.
