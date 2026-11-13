@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T14:31:39Z",
+  "generated": "2026-11-13T03:24:18Z",
   "programs": [
     {
       "id": "artnet",
@@ -120,6 +120,23 @@
       "description": "Ma3 to Artnet/sACN — DMX из памяти grandMA3 → Art-Net/sACN. Первый запуск: установка + переподпись grandMA3 (нужен пароль админа и установленная grandMA3).",
       "icon": "icon-ma3conv.png",
       "color": "#38C1E8"
+    },
+    {
+      "id": "prodjlink",
+      "name": "ProDjLink to Ma2/Ma3/Ableton",
+      "version": "1.0.5",
+      "file": "prodjlink-1.0.5.arp",
+      "size": 48978247,
+      "container_sha256": "a2084fbf80cc4e60faf8fa216f8d229998b48d873e45d1b2723998184f66a6c9",
+      "kind": "exe",
+      "os": "mac",
+      "feature_bit": 1,
+      "min_tier": 1,
+      "needs_dongle": true,
+      "sealed": true,
+      "description": "ProDjLink to Ma2/Ma3/Ableton — темп и место трека Pioneer CDJ (Pro DJ Link) → grandMA2/3, Ableton Link и MIDI-таймкод (macOS arm64, требует донгл)",
+      "icon": "icon-prodjlink.png",
+      "color": "#C264D8"
     }
   ]
 }
